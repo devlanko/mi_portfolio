@@ -1,0 +1,53 @@
+
+
+.quien-soy-titulo {
+    top: 50%;
+    margin-top: 20vh;
+  }
+  
+  .quien-soy-titulo .text-headline {
+    line-height: 1;
+  }
+  
+  .quien-soy-content {
+    margin-top: 20vh;
+  }
+ 
+  .quien-soy-foto {
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    width: 100vh;
+  }
+  .yo{
+    display: none; 
+  }
+ 
+  
+  @media (max-width: 900px) {
+    .quien-soy-content {
+      font-size: var(--text-title);
+    }
+  }
+  @media (max-width: 700px) {
+    .quien-soy-content {
+      margin-top: 0;
+      margin-bottom: var(--spacer-l);
+    }
+   
+  }
+  
+  @media (max-width: 500px) {
+    .quien-soy-content {
+      font-size: var(--text-subheader);
+    }
+  
+    .quien-soy-titulo {
+      margin-top: var(--spacer-xl);
+      margin-bottom: var(--spacer-s);
+    }
+  
+    .quien-soy-titulo .text-headline {
+      line-height: 1.5;
+    }
+    
+  }

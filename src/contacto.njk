@@ -1,0 +1,30 @@
+---
+layout: layouts/base.njk
+title: Contacto
+eleventyNavigation:
+  key: contacto
+  title: Contacto
+  order: 4
+---
+
+<div class="col-5 col-md-4 col-sm-3 col-xs-6 contacto-titulo">
+  <h1 class="font-2 text-headline">Contacto</h1>
+</div>
+<form action="/gracias/" name="contacto" data-netlify="true" class="col-7 col-md-6 col-sm-5 col-xs-6 contacto-form">
+  ¡Hola!<br>
+  <label for="name">Me llamo</label>
+  <input name="nombre" id="name" type="text" placeholder="tu nombre">
+  y <label for="project">tengo un proyecto de</label>
+  <select name="proyecto" id="project">
+    <option value="diseño">diseño</option>
+    <option value="cartoon">cartoon</option>
+    <option value="otro">otro</option>
+  </select>
+  en el que me gustaria que me ayudases.
+  <label for="email">
+    Me puedes escribir a
+  </label>
+  <input name="email" required id="email" type="email" placeholder="tu email">
+  ¡Gracias!<br>  
+  <button type="submit" class="contacto-enviar">enviar</button>
+</form>

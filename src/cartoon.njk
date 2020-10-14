@@ -1,0 +1,24 @@
+---
+layout: layouts/base.njk
+title: Cartoons
+eleventyNavigation:
+  key: cartoon
+  title: Cartoons
+  order: 2
+---
+
+
+
+
+<div class="col-6 col-md-5 col-sm-4 col-xs-6 ilustracion-texto">  
+  <h1 class="text-headline font-2 ">Cartoons</h1>
+  <p class="p_texto">
+    Los cartoons ha sido mi forma de expresion mas primitiva, ya en clase me pasaba horas dibujando a mis profesores y haciendo comics sobre ellos o cualquier personaje de los que creaba.<br><br>
+    Aqui se recogen varios de los cientos de  cartoons que he ido creando, entre ellos hay una hoja de un comic de un proyecto personal y una viñeta que realicé para un fancine de peliculas  hace algun tiempo.<br><br>
+  </p>                                      
+</div> 
+<div class="col-6 col-md-5 col-sm-4 col-xs-6 imagen">
+  {% for elemento in ilus %}
+    {% include "components/project-ilu.njk"%}
+  {% endfor %}
+</div>

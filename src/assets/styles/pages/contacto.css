@@ -1,0 +1,109 @@
+.contacto-titulo {
+    margin-top: 20vh;
+}
+
+.contacto-titulo .text-headline {
+    line-height: 1;
+}
+
+.contacto-form {
+    margin-top: 20vh;
+    font-size: 36px;
+    line-height: 1.8;
+}
+
+.contacto-form input {
+    font-family: inherit;
+    font-size: 0.5em;
+    letter-spacing: 0.05em;
+    line-height: 1.5;
+    vertical-align: 0.25em;
+    color: inherit;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid;
+    text-transform: uppercase;
+}
+
+.contacto-form input::placeholder {
+    color: var(--primary-4);
+}
+
+.contacto-form select {
+    font-family: inherit;
+    color: inherit;
+    font-size: 0.5em;
+    letter-spacing: 0.05em;
+    line-height: 1.5;
+    vertical-align: 0.25em;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid;
+    text-transform: uppercase;
+    padding-right: 1em;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url(/assets/images/icon-caret-down.svg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 0.75em auto;
+}
+
+.contacto-enviar {
+    border: 0;
+    font-family: inherit;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    line-height: 1;
+    padding: 0;
+    color: var(--secondary-5);
+    background-image: url(/assets/images/icon-arrow-right.svg);
+    background-repeat: no-repeat;
+    background-position: top 0.2em right 0.2em;
+    padding-right: 1.35em;
+    background-size: 0.9em auto;
+    transition: background-position 0.3s;
+    opacity: 0.8;
+    font-weight: 600;    
+}
+
+.contacto-enviar:hover {
+    cursor: pointer;
+    background-position: top 0.2em right 0;
+    opacity: 1;
+}
+
+@media (max-width: 900px) {
+    .contacto-form {
+        margin-top: var(--text-title);
+    }
+}
+
+@media (max-width: 500px) {
+    .contacto-titulo {
+        
+        margin-top:0px;
+        margin-bottom: var(--spacer-s);
+    }
+
+    .contacto-titulo .text-headline {
+        line-height: 1.5;
+        
+    }
+    
+
+    .contacto-form {
+        margin-top:50px;
+        margin-bottom: var(--spacer-l);
+        font-size: 24px;
+    }
+}
+@media (max-height: 500px) {
+    .contacto-form {
+        text-align: start;
+        margin-top:50px;
+        margin-bottom: var(--spacer-l);
+        font-size: 18px;
+    }
+}

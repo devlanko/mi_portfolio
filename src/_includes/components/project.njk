@@ -1,0 +1,14 @@
+{% set proyectoClase = "" %}
+
+{% if elemento.posicion === "completa"%}
+    {% set proyectoClase = "full-width"%}
+{% elseif elemento.posicion === "izquierda"%}
+    {% set proyectoClase = "left"%}  
+{% else%}
+    {% set proyectoClase = "right"%}  
+
+{% endif %}
+<div class="proyecto {{proyectoClase}}">
+
+    <img src="/assets/images/{{elemento.imagen}}" alt="">
+</div>

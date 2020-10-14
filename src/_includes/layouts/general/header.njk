@@ -1,0 +1,30 @@
+<div class="header">
+
+
+  <div class="container">
+
+
+    <div class=" hamburger hamburger--3dxy-r header-nav-icon">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </div>
+
+  
+
+    
+
+    {% set navPages = collections.all | eleventyNavigation %}
+    <div class="nav" >
+      {%- for elemento in navPages %}
+        <a href="{{ elemento.url | url }}"
+           class="text-headline_nav"
+        >
+          {{ elemento.title }}
+        </a>
+      {%- endfor %}
+    </div>
+
+  </div>
+
+</div>

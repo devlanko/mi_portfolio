@@ -1,0 +1,33 @@
+html {
+
+  /*Familias tipoghraficas*/
+  --font-1: "Raleway", sans-serif;
+  --font-2: "Abril Fatface", sans-serif;
+
+
+
+  /* Variables tipográficas */
+ 
+  --text-caption: 14px;
+  --text-note:16px;
+  --text-base:20px;
+  --text-subheader:24px;
+  --text-title:48px;
+  --text-headline:72px;
+  --text-display:96px;
+  --text-jumbo:144px;
+}
+
+@media (max-width:900px) {
+ html{
+   /* Variables tipográficas */
+    --text-caption: 12px;
+    --text-note: 14px;
+    --text-base: 16px;
+    --text-subheader: 20px;
+    --text-title: 24px;
+    --text-headline: 36px;
+    --text-display: 48px;
+    --text-jumbo: 60px;
+  }
+} 

@@ -1,0 +1,17 @@
+{% set proyectoClase = "" %}
+
+{% if elemento.posicion === "completa"%}
+    {% set proyectoClase = "full-width"%}
+{% elseif elemento.posicion === "izquierda"%}
+    {% set proyectoClase = "left"%}  
+{% else%}
+    {% set proyectoClase = "right"%}  
+
+{% endif %}
+
+<a data-fancybox="gallery" href="/assets/images/{{elemento.imagen}}" class="proyecto proyecto-ilu {{proyectoClase}}">
+  <img src="/assets/images/{{elemento.imagen}}" alt="">
+  <span class="proyecto-ilu-overlay">
+    {{elemento.desc}}
+  </span>
+</a>

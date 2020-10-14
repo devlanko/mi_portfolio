@@ -1,0 +1,24 @@
+---
+layout: layouts/base.njk
+title: Diseños
+eleventyNavigation:
+  key: diseños
+  title: Diseños
+  order: 1
+---
+
+
+
+<div class="col-6 col-md-5 col-sm-4 col-xs-6 ilustracion-texto">  
+  <h1 class="text-headline font-2 ">Diseños</h1>
+  <p class="p_texto">
+    Disfruto como un niño haciendo este tipo de diseños, siempre con vectores de la mano de mi amiguisimo “Ilustrator”,que al principio costó un poco dominarlo, pero ahora ya se deja hacer de todo.<br><br>
+    Uno de mis mayores descubrimientos artisticos fue cuando descubrí (gracias a Adobe Ideas) los “vectores”, era alucinante!! me permitía agrandar todo lo que yo quisiera y dibujar dentro de los mismos dibujos todos los detalles que quisiera….para mi hubo un antes y un despues desde entonces.<br><br>
+    Aqui se recogen algunos de los diseños que he realizado personales y para algunos clientes (muchos de tiendas de ropa urbana)…. tanto aquí en Barcelona como en varios puntos del planeta.  
+  </p>                                      
+</div>
+<div class="col-6 col-md-5 col-sm-4 col-xs-6 imagen">
+  {% for elemento in fotos %}
+    {% include "components/project-ilu.njk"%}
+  {% endfor %}
+</div>

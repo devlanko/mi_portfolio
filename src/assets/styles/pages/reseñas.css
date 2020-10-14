@@ -1,0 +1,8 @@
+strong {
+    padding-left: 32%; 
+}
+@media (max-width: 500px){
+    strong {
+        padding-left: 37%; 
+    }
+}
