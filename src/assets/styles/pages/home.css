@@ -121,7 +121,7 @@ a:link, a:visited, a:active {
         border: 2px solid white;
     }
     .home-slide{
-        width: auto;
+        width: 60%;
     }
 }
 
