@@ -150,7 +150,7 @@
 }
 
 /* Grid cols xs (6 columns): <500 */
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .col-7,
   .col-8,
   .col-9,
