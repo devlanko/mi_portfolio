@@ -10,6 +10,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  -webkit-box-reflect: below 1px linear-gradient(transparent,#0001);
 }
 
 .grid {
