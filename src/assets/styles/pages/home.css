@@ -120,6 +120,9 @@ a:link, a:visited, a:active {
         font-size: var(--text-title);
         border: 2px solid white;
     }
+    .home-slide{
+        height: 100%;
+    }
 }
 
 @media (max-height: 900px){
