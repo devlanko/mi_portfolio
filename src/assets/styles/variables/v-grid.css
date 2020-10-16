@@ -16,9 +16,9 @@ html {
 /* Size: sm */
 @media (max-width: 700px) {
   html {
-    --grid-main: repeat(6, minmax(0, 1fr));
-    --grid-gap: 10px;
-    --container-padding: 10px;
+    --grid-main: repeat(8, minmax(0, 1fr));
+    --grid-gap: 15px;
+    --container-padding: 15px;
   }
 }
 
@@ -34,7 +34,7 @@ html {
 /* Size: xxs */
 @media (max-width: 320px) {
   html {
-    --grid-main: repeat(4, minmax(0, 1fr));
+    --grid-main: repeat(6, minmax(0, 1fr));
     --grid-gap: 10px;
     --container-padding: 10px;
   }
