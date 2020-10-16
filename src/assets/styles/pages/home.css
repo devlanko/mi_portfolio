@@ -2,7 +2,7 @@ a:link, a:visited, a:active {
     text-decoration:none;
 }
 .home-slide {
-    height: 100vh;
+    height: 100%;
     position: relative;
 }
 
