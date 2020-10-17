@@ -76,7 +76,7 @@ a:link, a:visited, a:active {
     text-align: ;
     color: white;
     position: absolute;
-    bottom:260px;
+    bottom:270px;
     justify-content: center;
     left: 400px;
     font-size: var(--text-base);
