@@ -199,5 +199,10 @@ a:link, a:visited, a:active {
         border: 2px solid white;
     }
 }
+@media (max-height:700px){
+    .diamante {
+        width: 120px;
+    }
+}
 
 
