@@ -101,7 +101,7 @@ a:link, a:visited, a:active {
     
 }
 
-.home-subheader a:hover{
+.home-subheader:hover{
     cursor: pointer;
     opacity: 0.8;
     transition: 0.3s all;
