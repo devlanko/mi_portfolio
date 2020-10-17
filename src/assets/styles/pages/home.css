@@ -201,7 +201,7 @@ a:link, a:visited, a:active {
 }
 @media (max-height:700px){
     .diamante {
-        margin-top: 65px;
+        margin-top: 75px;
         width: 100px;
     }
     .sombra {
