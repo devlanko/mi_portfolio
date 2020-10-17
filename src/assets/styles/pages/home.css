@@ -36,7 +36,7 @@ a:link, a:visited, a:active {
 }
 .sombra2 {
     position: absolute;
-    margin-left: 90%;
+    margin-left: 97%;
     margin-top: 25%;
     z-index: 1;
     transform: rotate(-45deg);
