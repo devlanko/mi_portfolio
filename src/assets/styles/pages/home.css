@@ -183,7 +183,7 @@ a:link, a:visited, a:active {
     }
     .diamante {
         width: 100px;
-        margin-top: 35px;
+        margin-top: 15px;
         margin-left: 15px;
     }
 }
@@ -201,7 +201,7 @@ a:link, a:visited, a:active {
 }
 @media (max-height:700px){
     .diamante {
-        margin-top: 5px;
+        margin-top: 25px;
         width: 100px;
     }
     .sombra {
