@@ -76,7 +76,7 @@ a:link, a:visited, a:active {
     text-align: ;
     color: white;
     position: absolute;
-    bottom:270px;
+    bottom:260px;
     justify-content: center;
     left: 400px;
     font-size: var(--text-base);
@@ -116,7 +116,7 @@ a:link, a:visited, a:active {
     }
     .home-subtitle {
         left: 150px;
-        bottom: 240px;
+        bottom: 270px;
         color: white;
         font-size: var(--text-note);
     }
@@ -130,7 +130,7 @@ a:link, a:visited, a:active {
     }
     .home-subtitle {
         left: 150px;
-        bottom: 105px;
+        bottom: 125px;
         color: white;
         font-size: var(--text-note);
     }
@@ -152,7 +152,7 @@ a:link, a:visited, a:active {
     }
     .home-subtitle {
         left: 50px;
-        bottom: 100px;
+        bottom: 110px;
         color: white;
         font-size: var(--text-caption);
     }
