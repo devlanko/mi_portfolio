@@ -4,6 +4,7 @@ a:link, a:visited, a:active {
 .home-slide {
     height: 100vh;
     position: relative;
+    z-index: -1;
 }
 
 .home-slide img {
@@ -17,6 +18,46 @@ a:link, a:visited, a:active {
 .home-slide a {
     font-size: ;
 }
+.diamante {
+    position: absolute;
+    z-index: 1;
+    transform: rotate(-45deg);
+    animation:  animate 180s ease-in-out infinite;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.sombra {
+    position: absolute;
+    margin-left: 75%;
+    z-index: 1;
+    transform: rotate(-45deg);
+    animation:  animate 180s ease-in-out infinite;
+}
+.sombra2 {
+    position: absolute;
+    margin-left: 90%;
+    margin-top: 25%;
+    z-index: 1;
+    transform: rotate(-45deg);
+    animation:  animate 80s ease-in-out infinite;
+}
+@keyframes animate{
+    0%
+    {
+        transform: rotate(50deg);
+    }
+    50%
+    {
+        transform: rotate(2290deg);
+    }
+    100%
+    {
+        transform: rotate(50deg);
+    }
+    
+}
+
 
 
 .home-title {
