@@ -172,10 +172,10 @@ a:link, a:visited, a:active {
         border: 2px solid white;
     }
     .home-title{
-        bottom: 30px;
+        bottom: 50px;
     }
     .home-subtitle {
-        bottom: 30px;
+        bottom: 50px;
 
     }
     .sombra .sombra2{
@@ -202,7 +202,7 @@ a:link, a:visited, a:active {
 @media (max-height:700px){
     .diamante {
         margin-top: 5px;
-        width: 120px;
+        width: 100px;
     }
 }
 
