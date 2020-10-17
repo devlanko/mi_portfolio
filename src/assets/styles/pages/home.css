@@ -116,7 +116,7 @@ a:link, a:visited, a:active {
     }
     .home-subtitle {
         left: 150px;
-        bottom: 270px;
+        bottom: 280px;
         color: white;
         font-size: var(--text-note);
     }
@@ -130,7 +130,7 @@ a:link, a:visited, a:active {
     }
     .home-subtitle {
         left: 150px;
-        bottom: 125px;
+        bottom: 130px;
         color: white;
         font-size: var(--text-note);
     }
@@ -152,7 +152,7 @@ a:link, a:visited, a:active {
     }
     .home-subtitle {
         left: 50px;
-        bottom: 110px;
+        bottom: 120px;
         color: white;
         font-size: var(--text-caption);
     }
