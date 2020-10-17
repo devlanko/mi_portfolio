@@ -134,6 +134,13 @@ a:link, a:visited, a:active {
         color: white;
         font-size: var(--text-note);
     }
+    .sombra2{
+        display: none;
+        
+    }
+    .diamante{
+        margin-left: 8%;
+    }
 }
 
 @media (max-width: 900px){
@@ -149,6 +156,9 @@ a:link, a:visited, a:active {
         color: white;
         font-size: var(--text-caption);
     }
+    .sombra{
+        display: none;
+    }
 }
 
 @media (max-width: 500px){
@@ -160,6 +170,21 @@ a:link, a:visited, a:active {
         bottom: 90px;
         font-size: var(--text-title);
         border: 2px solid white;
+    }
+    .home-title{
+        bottom: 30px;
+    }
+    .home-subtitle {
+        bottom: 30px;
+
+    }
+    .sombra .sombra2{
+        display: none;
+    }
+    .diamante {
+        width: 120px;
+        margin-top: 15px;
+        margin-left: 15px;
     }
 }
 
