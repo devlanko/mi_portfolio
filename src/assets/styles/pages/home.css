@@ -209,14 +209,7 @@ a:link, a:visited, a:active {
         width: 35px;
     }
     .sombra2 {
-        width: 20px;
-        margin-top: 10%;
-        display: initial;
-    }
-}
-
-@media (max-height:700px | max-width:500px){
-    .sombra2{
         display: none;
     }
 }
+
