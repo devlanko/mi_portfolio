@@ -215,7 +215,7 @@ a:link, a:visited, a:active {
     }
 }
 
-@media (max-height:700px || max-width:500px){
+@media (max-height:700px | max-width:500px){
     .sombra2{
         display: none;
     }
