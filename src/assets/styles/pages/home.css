@@ -207,6 +207,7 @@ a:link, a:visited, a:active {
     .sombra {
         display: initial;
         margin-left: 65%;
+        top: 0;
         width: 30px;
     }
     .sombra2 {
