@@ -206,6 +206,11 @@ a:link, a:visited, a:active {
     }
     .sombra {
         display: initial;
+        width: 35px;
+    }
+    .sombra2 {
+        width: 20px;
+        display: initial;
     }
 }
 
