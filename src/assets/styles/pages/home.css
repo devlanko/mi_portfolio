@@ -201,11 +201,12 @@ a:link, a:visited, a:active {
 }
 @media (max-height:700px){
     .diamante {
-        margin-top: 25px;
+        margin-top: 55px;
         width: 100px;
     }
     .sombra {
         display: initial;
+        margin-left: 55%;
         width: 35px;
     }
     .sombra2 {
