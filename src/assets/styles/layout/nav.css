@@ -9,7 +9,7 @@
 }
 .nav  {
   font-size: 60px;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
@@ -23,7 +23,7 @@
   display: none;
 }
 .nav-activo .nav {
-  display: block;
+  display: flex;
 }
 .nav a {
   color: inherit;
