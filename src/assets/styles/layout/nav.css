@@ -9,14 +9,13 @@
 }
 .nav  {
   font-size: 60px;
-  position: static;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   background-color: var(--primary);
   color: var(--secondary-light);
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
