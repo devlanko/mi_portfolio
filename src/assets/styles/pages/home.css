@@ -9,7 +9,7 @@ a:link, a:visited, a:active {
 
 .home-slide img {
     position: absolute;
-    display: block;
+    display: relative;
     width: 100%;
     height: 100%;
     object-fit: cover;
