@@ -23,7 +23,7 @@
   display: none;
 }
 .nav-activo .nav {
-  display: flex;
+  display: absolute;
 }
 .nav a {
   color: inherit;
